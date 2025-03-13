@@ -1,0 +1,1 @@
+#Nodes functions for the graph
