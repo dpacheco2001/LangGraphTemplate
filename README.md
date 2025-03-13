@@ -1,6 +1,6 @@
 # LangGraph Template
 
-A template for building intelligent agents using LangGraph with memory persistence and tool usage capabilities.
+A basic template for building intelligent agents using LangGraph with memory persistence and tool usage capabilities.
 
 ## Overview
 
