@@ -62,6 +62,7 @@ The application starts an interactive chat session where you can:
 - Type `exit` to close the application
 
 ### Example Interaction
+
 ```bash
 Enter a message: Can you multiply 5 and 6? 
 
@@ -118,10 +119,10 @@ Human:  now, multiply 130 x 180
 Assistant:  The result of multiplying 130 by 180 is 23,400.
 
 Here's a breakdown of the multiplication:
-- You can think of it as \( 130 \times 180 = 130 \times (100 + 80) \).
-- This can be calculated as \( (130 \times 100) + (130 \times 80) \).
-- So, \( 130 \times 100 = 13,000 \) and \( 130 \times 80 = 10,400 \).
-- Adding those together gives \( 13,000 + 10,400 = 23,400 \).
+- You can think of it as (130 × 180 = 130 × (100 + 80)).
+- This can be calculated as ((130 × 100) + (130 × 80)).
+- So, (130 × 100 = 13,000) and (130 × 80 = 10,400).
+- Adding those together gives (13,000 + 10,400 = 23,400).
 
 If you have any more questions or need further assistance, just let me know!
 
