@@ -1,8 +1,8 @@
-# LangGraph Template
+#LangGraph Template
 
 A template for building intelligent agents using LangGraph with memory persistence and tool usage capabilities.
 
-## Overview
+##Overview
 
 This project provides a template for creating conversational AI agents with LangGraph. It features:
 
@@ -11,9 +11,9 @@ This project provides a template for creating conversational AI agents with Lang
 - Memory capabilities for storing and retrieving user preferences
 - Error handling mechanisms
 
-## Installation
+##Installation
 
-### Prerequisites
+###Prerequisites
 
 - Python 3.11+
 - pip (Python package installer)
