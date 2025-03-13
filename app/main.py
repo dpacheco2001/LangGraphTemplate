@@ -11,12 +11,12 @@ long_term_memory = InMemoryStore()
 template_graph= compilegraph(checkpointer=memory,long_term_memory=long_term_memory)
 
 while True:
-    entrada=input("Enter a message: ")
-    if entrada=="exit":
+    inp=input("Enter a message: ")
+    if inp=="exit":
         break
-    if entrada == "ver_memoria":
+    if inp == "see_memory":
         print(long_term_memory.search(("memories","1")))
         continue
-    response=template_graph.invoke({"messages":HumanMessage(content=entrada)},config)
-    print("Human: ",entrada)
+    response=template_graph.invoke({"messages":HumanMessage(content=inp)},config)
+    print("Human: ",inp)
     print("Assistant: ",response["messages"][-1].content)
