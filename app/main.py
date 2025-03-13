@@ -15,8 +15,13 @@ while True:
     if inp=="exit":
         break
     if inp == "see_memory":
+        print("\n------------Memories stored-------------\n")
         print(long_term_memory.search(("memories","1")))
+        print("\n------------Memories stored-------------\n")
         continue
     response=template_graph.invoke({"messages":HumanMessage(content=inp)},config)
+    print("\n--------------------------\n")
     print("Human: ",inp)
+    print("\n--------------------------\n")
     print("Assistant: ",response["messages"][-1].content)
+    print("\n--------------------------\n")
