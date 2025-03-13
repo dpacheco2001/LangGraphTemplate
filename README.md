@@ -23,7 +23,7 @@ This project provides a template for creating conversational AI agents with Lang
 1. **Clone the repository:**
 
     ```bash
-   git clone <repository-url>
+   git clone https://github.com/dpacheco2001/LangGraphTemplate.git
    cd LangGraphTemplate
    ```
 
