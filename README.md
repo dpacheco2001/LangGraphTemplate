@@ -1,4 +1,5 @@
-# LangGraph Template
+### Made by Diego Pacheco
+# LangGraph Template 
 
 A basic template for building intelligent agents using LangGraph with memory persistence and tool usage capabilities.
 
@@ -162,4 +163,4 @@ LangGraphTemplate/
 3. **Make your changes**
 4. **Submit a pull request**
 
-### Made by Diego Pacheco
+
